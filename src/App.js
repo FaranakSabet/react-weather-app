@@ -10,7 +10,7 @@ export default function App() {
           This project was coded by Faranak Sabet and is{" "}
           <a
             href="https://github.com/FaranakSabet/react-weather-app"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             open-sourced on GitHub
           </a>

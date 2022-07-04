@@ -12,7 +12,6 @@ export default function Weather(props) {
     setWeatherData({
       temperature: response.data.main.temp,
       description: response.data.weather[0].description,
-      date: "Wednesday 09:00",
       humidity: response.data.main.humidity,
       date: new Date(response.data.dt * 1000),
       wind: response.data.wind.speed,
@@ -63,6 +62,7 @@ export default function Weather(props) {
       </div>
     );
   } else {
+    search();
     return "loading...";
   }
 }
